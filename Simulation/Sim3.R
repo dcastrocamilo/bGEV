@@ -73,17 +73,6 @@ rl.gev   = read.table('Simulation/Sim3/sim3out_gev.txt', header = F)$V1
 rmse.gev = round(sqrt(mean((rl.gev - rl)^2)),2); rmse.gev
 
 
-# ## RMSE bgev and gev
-# rmse        = data.frame(row.names = rownames(rmse.gev))
-# rmse$`0.05` = paste0(rmse.bgev$`0.05`,'(',rmse.gev$`0.05`,')')
-# rmse$`0.3`  = paste0(rmse.bgev$`0.3`,'(',rmse.gev$`0.3`,')')
-# rmse$`0.5`  = paste0(rmse.bgev$`0.5`,'(',rmse.gev$`0.5`,')')
-# rmse$`0.7`  = paste0(rmse.bgev$`0.7`,'(',rmse.gev$`0.7`,')')
-# rmse$`0.9`  = paste0(rmse.bgev$`0.9`,'(',rmse.gev$`0.9`,')')
-# rmse
-# xtable(rmse)
-
-
 
 
 
