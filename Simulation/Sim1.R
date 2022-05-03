@@ -25,8 +25,9 @@ scenarios = expand.grid(n, N); colnames(scenarios) = c('n', 'N'); scenarios
 
 rl.bgev30 = rl.bgev50 = rl.bgev100 = NULL
 rl.gev30  = rl.gev50 = rl.gev100 = NULL
+
 t0 = Sys.time()
-for(mc in 5:M){
+for(mc in 1:M){
   printPercentage(mc, M)
   tmp.bgev30 = tmp.bgev50 = tmp.bgev100 = tmp.gev30 = tmp.gev50 = tmp.gev100 = NULL
   
