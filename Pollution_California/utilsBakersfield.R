@@ -33,7 +33,7 @@ hyper.bgev = list(spread = hyper.spread,
 
 ## bGEV hyperparameters 
 alpha = 0.5  # alpha for q_alpha
-beta  = 0.5  # beta for s_beta
+beta  = 0.5 # beta for s_beta
 pa    = 0.05 # Probability pa for the mixing region
 pb    = 0.2  # Probability pb for the mixing region
 c1    = 5    # parameters of the Beta weight function. Hard-coded for the moment: c1=c2=5
